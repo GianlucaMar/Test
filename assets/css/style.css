@@ -1,29 +1,39 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-nav{
-    background-image:url(../img/matrix-g2218328c4_1920.jpg);
-    
+nav {
+  background-image: url(../img/matrix-g2218328c4_1920.jpg);
 }
-nav ul li{
-    list-style: none;
-    font-size: 6rem;
-    line-height: 150%;
-    text-align: center;
-    padding: 70px 0px;
+nav ul li {
+  list-style: none;
+  font-size: 6rem;
+  line-height: 150%;
+  text-align: center;
+  padding: 70px 0px;
+  animation: side-load 400ms;
 }
-a{
-    text-decoration: none;
-    color: red;
+a {
+  text-decoration: none;
+  color: red;
 }
-a:hover{
-text-decoration: underline;
-box-shadow: 0px 0px 50px;
-color: white;
-background-color: black;
+a:hover {
+  text-decoration: underline;
+  box-shadow: 0px 0px 50px;
+  color: white;
+  background-color: black;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+@keyframes side-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
