@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/CodeTower.jpg);
+    background-size: cover;
+}
+header h1{
+    color: white;
+    text-align: center;
+}
+a{
+    color: red;
+    font-size: 2rem;
+}
+section{
+    color: white;
+    font-size: 2rem;
+}

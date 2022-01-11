@@ -1,0 +1,14 @@
+
+body{
+    background-image: url(../img/matrix-Weltkarte.jpg);
+}
+section ul li{
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
