@@ -17,8 +17,8 @@ nav ul li{
 a{
     text-decoration: none;
     color: red;
-        background: rgba(156, 231, 133, 0.527);
-        border-radius: 5px;
+    background: rgba(156, 231, 133, 0.527);
+    border-radius: 5px;
 }
 a:hover{
 text-decoration: underline;
