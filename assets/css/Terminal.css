@@ -1,11 +1,17 @@
 
 body{
-    background-image: url(../img/matrix-Weltkarte.jpg);
+    background-image: url(../img/matrix-Weltkarte.jpg) repeat-y;
 }
+
 section ul li{
     list-style: none;
     font-size: 2rem;
     color: white;
+}
+
+nav ul li a{
+    padding: 10%;
+    background: rgba(205, 231, 133, 0.767);
 }
 
 h1{
